@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana;
+    background-color: orange;
+}
+a:hover {
+    font-size: 15pt;
+    color: green;
+}
+#titel {
+    color: green;
+}
+nav > a {
+    border: solid;
+}

@@ -1,0 +1,14 @@
+table {
+    border: solid 4pt darkred;
+    border-collapse: collapse;
+    height: 400pt;
+    width: 400pt;
+}
+table tr {
+    background-image: url("assets/Images/zwarte-marmer.jpg");
+    width: 12.5%;
+    height: 12.5%;
+    text-align: center;
+}
+table tr:nth-child(even) {
+}

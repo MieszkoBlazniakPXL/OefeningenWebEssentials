@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+    border-color: black;
+    border-collapse: collapse;
+    font-family: Roboto;
+}
+td, th {
+     height: 27px;
+    color: white;
+    border-color: black;
+ }
+tbody > tr > td{
+    width: 14.3%;
+    text-align: center;
+}
+tbody tr:nth-child(even){
+background-color: #4f8cef;
+}
+tbody tr:nth-child(odd) {
+    background-color: #6facff;
+}
+thead,tbody tr:first-of-type,tfoot {
+    background-color: #27426d;
+}
